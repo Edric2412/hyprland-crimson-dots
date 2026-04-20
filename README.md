@@ -5,8 +5,6 @@
 <img src="https://img.shields.io/badge/OS-Fedora-blue?style=for-the-badge&logo=fedora">
 <img src="https://img.shields.io/badge/WM-Hyprland-red?style=for-the-badge">
 <img src="https://img.shields.io/badge/Theme-Red%20Glass-darkred?style=for-the-badge">
-<img src="https://img.shields.io/github/stars/Edric2412/hyprland-dots?style=for-the-badge">
-<img src="https://img.shields.io/github/license/Edric2412/hyprland-dots?style=for-the-badge">
 
 </p>
 
