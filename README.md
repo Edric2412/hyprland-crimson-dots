@@ -1,8 +1,28 @@
 # 🔴 Edric's Hyprland Setup — Red Glass Theme
 
-A custom **Hyprland-based Linux desktop setup** built on Fedora, featuring a **red and black aesthetic**, custom lockscreen styling, and SF Pro typography.
+<p align="center">
 
-This setup is inspired by modern UI design principles — focusing on **clarity, minimalism, and glass-style visuals**.
+<img src="https://img.shields.io/badge/OS-Fedora-blue?style=for-the-badge&logo=fedora">
+<img src="https://img.shields.io/badge/WM-Hyprland-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Theme-Red%20Glass-darkred?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/Edric2412/hyprland-dots?style=for-the-badge">
+<img src="https://img.shields.io/github/license/Edric2412/hyprland-dots?style=for-the-badge">
+
+</p>
+
+<p align="center">
+A custom <b>Hyprland-based Linux desktop setup</b> built on Fedora, featuring a <b>red & black glass aesthetic</b>, custom lockscreen styling, and SF Pro typography.
+</p>
+
+---
+
+# 🎬 Live Demo
+
+<p align="center">
+
+<video src="hyprland.mp4" controls autoplay muted loop width="100%"></video>
+
+</p>
 
 ---
 
@@ -10,15 +30,15 @@ This setup is inspired by modern UI design principles — focusing on **clarity,
 
 ## Desktop
 
-*(Add screenshot here)*
+![Desktop Screenshot](screenshots/desktop.png)
 
 ## Lockscreen
 
-*(Add screenshot here)*
+![Lockscreen Screenshot](screenshots/lockscreen.png)
 
 ## Waybar
 
-*(Add screenshot here)*
+![Waybar Screenshot](screenshots/waybar.png)
 
 ---
 
@@ -27,7 +47,7 @@ This setup is inspired by modern UI design principles — focusing on **clarity,
 * 🔴 Red & Black themed UI
 * 🧊 Glass-style blur effects
 * 🔒 Custom Hyprlock lockscreen
-* 🖋️ **SF Pro Display** font integration
+* 🖋️ **SF Pro Display** typography
 * 📊 Custom Waybar styling
 * 🗂️ Nautilus as default file manager
 * ⌨️ Custom keybindings
@@ -38,23 +58,23 @@ This setup is inspired by modern UI design principles — focusing on **clarity,
 
 # ⚙️ System Details
 
-| Component    | Value                 |
-| ------------ | --------------------- |
-| OS           | Fedora Linux          |
-| WM           | Hyprland              |
-| Terminal     | Kitty                 |
-| Bar          | Waybar                |
-| Launcher     | Rofi                  |
-| File Manager | Nautilus              |
-| Fonts        | SF Pro Display        |
-| Theme        | Nightfox (Customized) |
-| Icons        | Flat Remix Red        |
+| Component        | Value                 |
+| ---------------- | --------------------- |
+| **OS**           | Fedora Linux          |
+| **WM**           | Hyprland              |
+| **Terminal**     | Kitty                 |
+| **Bar**          | Waybar                |
+| **Launcher**     | Rofi                  |
+| **File Manager** | Nautilus              |
+| **Fonts**        | SF Pro Display        |
+| **Theme**        | Nightfox (Customized) |
+| **Icons**        | Flat Remix Red        |
 
 ---
 
 # 📁 Folder Structure
 
-```
+```bash
 hyprland-dots/
 ├── hypr/
 │   ├── hyprland.conf
@@ -74,7 +94,11 @@ hyprland-dots/
 │
 ├── wallpapers/
 │
-└── screenshots/
+├── screenshots/
+│   ├── desktop.png
+│   ├── lockscreen.png
+│   ├── waybar.png
+│   └── hyprland.mp4
 ```
 
 ---
@@ -83,24 +107,25 @@ hyprland-dots/
 
 ⚠️ Recommended for users familiar with Hyprland.
 
-Clone the repository:
+## Clone Repository
 
-```
-git clone https://github.com/YOUR_USERNAME/hyprland-dots.git
+```bash
+git clone https://github.com/Edric2412/hyprland-dots.git
+cd hyprland-dots
 ```
 
-Copy configuration files:
+## Copy Configuration Files
 
-```
+```bash
 cp -r hypr ~/.config/
 cp -r waybar ~/.config/
 cp -r kitty ~/.config/
 cp -r rofi ~/.config/
 ```
 
-Reload Hyprland:
+## Reload Hyprland
 
-```
+```bash
 hyprctl reload
 ```
 
@@ -113,7 +138,7 @@ This setup uses:
 * **SF Pro Display**
 * Nerd Fonts (for icons)
 
-Install fonts before using the configuration.
+Install fonts before applying configuration.
 
 ---
 
@@ -130,7 +155,7 @@ Recommended:
 
 Red/black aesthetic wallpapers included in:
 
-```
+```bash
 wallpapers/
 ```
 
@@ -138,16 +163,16 @@ wallpapers/
 
 # ⌨️ Keybindings
 
-| Shortcut      | Action               |
-| ------------- | -------------------- |
-| SUPER + A     | Open Antigravity IDE |
-| SUPER + E     | Open Nautilus        |
-| SUPER + ENTER | Open Terminal        |
-| SUPER + D     | Open Launcher        |
+| Shortcut          | Action               |
+| ----------------- | -------------------- |
+| **SUPER + A**     | Open Antigravity IDE |
+| **SUPER + E**     | Open Nautilus        |
+| **SUPER + ENTER** | Open Terminal        |
+| **SUPER + D**     | Open Launcher        |
 
 More bindings available in:
 
-```
+```bash
 UserKeybinds.conf
 ```
 
@@ -155,14 +180,24 @@ UserKeybinds.conf
 
 # 🚧 Status
 
-Currently under active customization.
+🛠️ Currently under active customization.
 
-Planned improvements:
+### Planned Improvements
 
 * [ ] Glass-style UI refinements
 * [ ] More lockscreen customization
 * [ ] Dynamic color theming
 * [ ] Improved blur tuning
+
+---
+
+# ⭐ Support
+
+If you like this setup:
+
+⭐ Star the repo
+🍴 Fork it
+🛠️ Customize it
 
 ---
 
