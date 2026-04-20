@@ -1,4 +1,4 @@
-# 🔴 Edric's Hyprland Setup — Red Glass Theme
+# 🔴 Edric's Hyprland Setup — Red Glass Theme (Check hyprland.mp4 for demo)
 
 <p align="center">
 
