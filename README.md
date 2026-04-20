@@ -12,34 +12,6 @@
 A custom <b>Hyprland-based Linux desktop setup</b> built on Fedora, featuring a <b>red & black glass aesthetic</b>, custom lockscreen styling, and SF Pro typography.
 </p>
 
----
-
-# 🎬 Live Demo
-
-<p align="center">
-
-<video src="hyprland.mp4" controls autoplay muted loop width="100%"></video>
-
-</p>
-
----
-
-# 🖥️ Preview
-
-## Desktop
-
-![Desktop Screenshot](screenshots/desktop.png)
-
-## Lockscreen
-
-![Lockscreen Screenshot](screenshots/lockscreen.png)
-
-## Waybar
-
-![Waybar Screenshot](screenshots/waybar.png)
-
----
-
 # ✨ Features
 
 * 🔴 Red & Black themed UI
